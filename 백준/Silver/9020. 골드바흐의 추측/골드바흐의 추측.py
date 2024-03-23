@@ -14,7 +14,7 @@ def goldbach(n):
     for i in range(0,n_half):
         if( prime_chekcer(n_half-i) and prime_chekcer(n/2+i) ):
             return(n_half-i,n_half+i)
-
+#asd
 
 T=int(input())
 for times in range(1,T+1):
